@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    background-color: #fff;
+}
+
+/* Banner section css  */
+.banner {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-image: url("../image/banner/banner3.png");
+    text-align: right;
+    align-items: center;
+
+}
+
+.image {
+    height: 100%;
+    width: 60%;
+}
+
+.details {
+    padding-right: 20px;
+    width: 30%;
+}
+
+.btn-primary {
+    width: 150px;
+    height: 50px;
+    font-size: 24px;
+    padding: 15px;
+    line-height: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px solid greenyellow;
+}
+
+/* Failure section  */
+
+.failure {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+
+.failure-image {
+    height: 100%;
+    width: 60%;
+}
+
+.failure-image img {
+    height: 60%;
+    width: 60%;
+}
+
+.failure-details {
+    padding-right: 20px;
+    width: 30%;
+}
+
+.failure-details ul {
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.failure-details ul li {
+    list-style: none;
+}
+
+/* Heading  */
+.heading {
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.plans {
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+    width: 80%;
+    height: 150px;
+    margin-bottom: 150px;
+
+}
+
+.plan {
+    width: 23%;
+    height: 50px;
+    margin-top: 100px;
+}
+
+/* Call Now css section */
+.coll-now {
+    width: 70%;
+    height: 200px;
+    background-image: url("../image/gradient1.png"), url("../image/watch.png");
+    margin: 0 auto;
+    align-items: center;
+}
+
+.call-now-title {
+    margin-top: 75px;
+    margin-left: 25px;
+}
+
+/* Footer section css */
+footer {
+    background-color: rgb(12, 12, 12);
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    align-content: space-between;
+}
+
+.left-footer {
+    color: #fff;
+    padding: 67px;
+    width: 400px;
+}
+
+.left-icon {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.left-icon img {
+    height: 30px;
+    width: 30px;
+}
+
+.right-footer {
+    color: #fff;
+    width: 400px;
+    margin-left: 288px;
+    margin-top: 150px;
+}
